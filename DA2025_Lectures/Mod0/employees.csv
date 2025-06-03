@@ -1,7 +1,0 @@
-employee_id,name,age,department,salary,start_date,full_time
-1,Alice Smith,29,Engineering,75000,2021-03-15,True
-2,Bob Johnson,35,Marketing,62000,2019-07-01,True
-3,Charlie Lee,28,Sales,55000,2022-06-10,False
-4,Diana Patel,42,HR,70000,2018-11-20,True
-5,Eric Zhang,31,Engineering,80000,2020-09-05,True
-6,Fatima Khan,26,Sales,52000,2023-01-03,False
