@@ -17,7 +17,7 @@
 
 5.  Merge the changes/new lectures into YOUR fork 
 
-```git merge upstream/main -m "meaningful message```
+```git merge upstream/main -m "meaningful message"```
 
 6.  Push and changes you make to lectures/notes back to YOUR fork (these will be your personal notes/changes)
 
