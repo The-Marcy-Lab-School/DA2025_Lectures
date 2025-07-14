@@ -1,10 +1,10 @@
-import pandas as dp
+'''import pandas as dp
 from dash import html, dcc, dash
 import pandas as pd
 import plotly.express as px
 from dash.dependencies import Input, Output
-
-# Load and clean data
+'''
+'''# Load and clean data
 df = pd.read_csv("/Users/Marcy_Student/Downloads/indian_food.csv").dropna()
 # Create app
 app = dash.Dash(__name__)
@@ -31,4 +31,4 @@ def update_chart(region):
     return fig
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True)'''
