@@ -22,3 +22,4 @@
 6.  Push and changes you make to lectures/notes back to YOUR fork (these will be your personal notes/changes)
 
 ```git push origin main```
+7 barry added this
