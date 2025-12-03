@@ -65,8 +65,20 @@ with col2:
 st.divider()
 st.subheader("Example Species Image")
 #change the placeholder image if you like 
+#dictionary of species and their image URLs
+species_images = {
+    "Adelie": "https://i.pinimg.com/736x/5b/90/e3/5b90e3c71d0cbe2a818c2ee333066bf1.jpg",
+    "Chinstrap": "https://i.pinimg.com/1200x/c3/10/51/c31051d170563790cbab6430f2d3fe8d.jpg",
+    "Gentoo": "https://i.pinimg.com/736x/76/08/46/760846a08dfa64552896c44817ed729f.jpg"
+}
+
+# Pick correct image based on selected species
+img_url = species_images.get(species_hint, species_images["Gentoo"])
+
 st.image(
-    f"https://placehold.co/600x300?text={species_hint}",
-    caption=f"Placeholder image: {species_hint}",
-    use_column_width=True
+    img_url,
+    caption=f"Example: {species_hint}",
+    width=250
 )
+
+
